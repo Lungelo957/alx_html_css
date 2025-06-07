@@ -1,0 +1,101 @@
+/* General reset and body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header navigation styling */
+header {
+  background-color: #24292e;
+  padding: 1rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+header li {
+  display: inline;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Main article styling */
+main {
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+/* Image styling */
+article img {
+  width: 150px;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background-color: #fff;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #e4e4e4;
+}
+
+/* Aside styling */
+aside {
+  background-color: #dfe4ea;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-left: 4px solid #2f3542;
+}
+
+/* Footer styling */
+footer {
+  background-color: #24292e;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
