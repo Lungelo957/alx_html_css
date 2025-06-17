@@ -485,3 +485,51 @@ h2,h3,h4,.video-description,.video-duration {
   font-style: normal;
   width: 350px;
 }
+
+footer {
+  background: #071629;
+  color: #fff;
+  padding: 40px 0 20px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo-social {
+  text-align: left;
+  gap: 24px;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.2s;
+}
+
+.footer-social a:hover {
+  color: #C271FF;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: regular;
+}
