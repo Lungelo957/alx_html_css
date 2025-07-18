@@ -67,7 +67,7 @@ body {
   height: 100vh;
   width: auto;
   background: 
-    url('/headphones/images/headphones_hero_1.jpg') center center/cover no-repeat;
+    url('/alx_html_css/headphones/images/headphones_hero_1.jpg') center center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
